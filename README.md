@@ -12,11 +12,11 @@ If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, th
 
 These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use CloudFlare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
 
-Here's a list of various such reports:
+<details><summary>Here's a list of various such reports: (Click to expand)</summary>
 
 Website | Reports
 ----------------------|----------------------
-teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657   
+teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657
 neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254
 usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
 thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
@@ -28,12 +28,13 @@ shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 ht
 codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
 web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an
 buyday.in        | https://stackoverflow.com/a/70426860
-Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28  
+boxbilling.org | https://github.com/boxbilling/boxbilling/issues/1178 https://twitter.com/MichaelAnandR/status/1471935979787194373
+Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28
 konvajs.com          | https://github.com/konvajs/konva/issues/1161
 breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/
 platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/
 coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19
-4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2 
+4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2
 mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2
 about.hacktohell.org | https://twitter.com/hacktohell/status/1479484933785538562
 one9x.org | https://twitter.com/Ramank775/status/1465979965002846209
@@ -43,14 +44,15 @@ treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
 wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
 akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
 garudahacks.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
-
+noflojs.org | https://github.com/noflo/noflo/issues/863
+</details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
 There's [more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
 # Call to CloudFlare
 
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end. 
+Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end.
 
 Here's a few simple requests:
 
