@@ -28,6 +28,7 @@ shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 ht
 codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
 web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an
 buyday.in        | https://stackoverflow.com/a/70426860
+boxbilling.org | https://github.com/boxbilling/boxbilling/issues/1178 https://twitter.com/MichaelAnandR/status/1471935979787194373
 Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28  
 konvajs.com          | https://github.com/konvajs/konva/issues/1161
 breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/
