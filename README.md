@@ -4,7 +4,7 @@ A public letter to CloudFlare to fix their snoopy vendor.
 
 For the last few years, various websites hosted on GitHub Pages and fronted using CloudFlare have been blocked in India due to CloudFlare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
 
-`User->CloudFlare->Airtel->GitHub Pages`
+`User -> Any ISP -> Cloudflare -> Airtel (Cloudflare peering partner) -> GitHub Pages`
 
 If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, the connection between CloudFlare and GitHub isn't encrypted, and Airtel blocks many such websites. Because CloudFlare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
 
@@ -12,7 +12,7 @@ If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, th
 
 These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use CloudFlare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
 
-<details><summary>Here's a list of various such reports: (Click to expand)</summary>
+Here's a list of various such reports:
 
 Website | Reports
 ----------------------|----------------------
@@ -28,7 +28,6 @@ shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 ht
 codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
 web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an
 buyday.in        | https://stackoverflow.com/a/70426860
-boxbilling.org | https://github.com/boxbilling/boxbilling/issues/1178 https://twitter.com/MichaelAnandR/status/1471935979787194373
 Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28  
 konvajs.com          | https://github.com/konvajs/konva/issues/1161
 breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/
@@ -44,20 +43,19 @@ treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
 wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
 akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
 garudahacks.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
-noflojs.org | https://github.com/noflo/noflo/issues/863
-</details>
+
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
-There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
+There's [more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
 # Call to CloudFlare
 
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
+Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end. 
 
 Here's a few simple requests:
 
 1. Get Airtel to fix the issue at their end.
-2. Switch to a different upstream if that doesn't happen.
+2. Switch to a different upstream (peer) if that doesn't happen.
 3. Publish a transparency report acknowledging the issue and confirming how many websites were incorrectly blocked without a court-order.
 4. Notify Flexible SSL users that use GitHub Pages that their websites are getting blocked in India.
 
@@ -67,7 +65,7 @@ Flexible SSL is a decade-old product that has no place in the modern web. Users 
 
 If you got a report about your website being blocked in India, with a message that reads:
 
->The website has been blocked as per order of Ministry of Electronics and Information Technology under IT Act, 2000.
+> The website has been blocked as per order of Ministry of Electronics and Information Technology under IT Act, 2000.
 
 Here's what you can do:
 
@@ -80,4 +78,4 @@ If you'd like to notify a site owner, please send them this link: https://github
 
 # Help fight Censorship in India
 
-If you'd like to support the fight to fix the state of internet censorship in India, and bring more transparency to how it works, please [Donate to the Internet Freedom Foundation](https://internetfreedom.in/donate/). You will need a valid Indian PAN Card.
+If you'd like to support the fight to fix the state of Internet censorship in India, and bring more transparency on how it works, please [donate to the Internet Freedom Foundation](https://internetfreedom.in/donate/). You will need a valid Indian PAN Card.
