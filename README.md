@@ -40,6 +40,7 @@ orkohunter.net | https://twitter.com/OrkoHunter/status/1425089684535975937
 treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
 wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
 termux.com | https://twitter.com/geekodour/status/1478963440412626946 https://github.com/termux/termux.github.io/issues/56
+akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
 
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
