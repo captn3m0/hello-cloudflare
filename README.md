@@ -35,8 +35,7 @@ mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2
 rsms.me | https://twitter.com/sahilk/status/1479489063874752512 https://twitter.com/sahilk/status/1441104954408587264
 about.hacktohell.org | https://twitter.com/hacktohell/status/1479484933785538562
 
-
-Several of these websites are critical to many developers, and none of these deserve to get blocked in India.
+Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
 There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
