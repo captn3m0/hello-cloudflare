@@ -16,34 +16,33 @@ Here's a list of various such reports:
 
 Website | Reports
 ----------------------|----------------------
-shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 https://forum.internetfreedom.in/t/website-blocking-report-and-wynk-ads-shantanugoel-com/2318
 teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657   
-codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
 neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254
+usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
+thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
+tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626
+pennapps.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
+termux.com | https://twitter.com/geekodour/status/1478963440412626946 https://github.com/termux/termux.github.io/issues/56
+rsms.me | https://twitter.com/sahilk/status/1479489063874752512 https://twitter.com/sahilk/status/1441104954408587264
+shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 https://forum.internetfreedom.in/t/website-blocking-report-and-wynk-ads-shantanugoel-com/2318
+codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
 web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an
 buyday.in        | https://stackoverflow.com/a/70426860
-usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
 Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28  
 konvajs.com          | https://github.com/konvajs/konva/issues/1161
 breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/
 platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/
-thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
 coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19
-tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626
 4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2 
 mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2
-rsms.me | https://twitter.com/sahilk/status/1479489063874752512 https://twitter.com/sahilk/status/1441104954408587264
 about.hacktohell.org | https://twitter.com/hacktohell/status/1479484933785538562
 one9x.org | https://twitter.com/Ramank775/status/1465979965002846209
 kossiitkgp.org | https://twitter.com/OrkoHunter/status/1425089684535975937
 orkohunter.net | https://twitter.com/OrkoHunter/status/1425089684535975937
 treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
 wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
-termux.com | https://twitter.com/geekodour/status/1478963440412626946 https://github.com/termux/termux.github.io/issues/56
 akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
-pennapps.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
 garudahacks.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
-
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
