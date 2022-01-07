@@ -29,6 +29,9 @@ Here's a list of various such reports:
 | platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/                 | Not Resolved |
 | thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102 | Not Resolved |
 | coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19       |              |
+| tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626 |
+| 4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2 | 
+| mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2 |
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India.
 
