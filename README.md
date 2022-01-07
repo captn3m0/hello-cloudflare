@@ -1,5 +1,3 @@
-# hello-cloudflare
-
 A public letter to CloudFlare to fix their snoopy vendor.
 
 # What
@@ -23,16 +21,16 @@ Here's a list of various such reports:
 | codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644                                           | Now resolved |
 | neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254                                   | Not Resolved |
 | web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an                           |              |
-| www.buyday.in        | https://stackoverflow.com/a/70426860                                                                                                                   |              |
+| buyday.in        | https://stackoverflow.com/a/70426860                                                                                                                   |              |
 | usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12                                                         | Not Resolved |
-| Node-OS              | https://github.com/NodeOS/nodeos.github.io/issues/28                                                                                                   | Not Resolved |
+| Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28                                                                                                   | Not Resolved |
 | konvajs.com          | https://github.com/konvajs/konva/issues/1161                                                                                                           | Not Resolved |
 | breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/                                               | Resolved     |
 | platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/                 | Not Resolved |
 | thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102 | Not Resolved |
 | coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19       |              |
 
-Several of these websites are critical to many developers, and it shouldn't be upto
+Several of these websites are critical to many developers, and none of these deserve to get blocked in India.
 
 # Help, my website is blocked
 
@@ -45,11 +43,13 @@ Here's what you can do:
 1. Switch from CloudFlare to direct GitHub Pages, which supports TLS now.
 2. Enable HTTPS on GitHub pages, and switch the upstream on CloudFlare to get strict SSL instead of flexible.
 
+If you aren't using CloudFlare, please open an issue.
+
 # Call to CloudFlare
 
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update. 
+Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
 
-A few suggestions:
+Here's a few simple requests:
 
 1. Get Airtel to fix the issue at their end.
 2. Switch to a different upstream if that doesn't happen.
@@ -57,3 +57,7 @@ A few suggestions:
 4. Notify Flexible SSL users that use GitHub Pages that their websites are getting blocked in India.
 
 Flexible SSL is a decade-old product that has no place in the modern web. Users should get a big red warning when enabling such a product in today's times with free SSL certificates.
+
+# Help fight Censorship in India
+
+If you'd like to support the fight to fix the state of internet censorship in India, and bring more transparency to how it works, please [Donate to the Internet Freedom Foundation](https://internetfreedom.in/donate/). You will need a valid Indian PAN Card.
