@@ -14,24 +14,27 @@ These are just a few of the many websites blocked. This disproportionately impac
 
 Here's a list of various such reports:
 
-| Website              | Reports                                                                                                                                                | Notes        |
-|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 https://forum.internetfreedom.in/t/website-blocking-report-and-wynk-ads-shantanugoel-com/2318   | Now resolved |
-| teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657                                                                                                 | Now resolved |
-| codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644                                           | Now resolved |
-| neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254                                   | Not Resolved |
-| web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an                           |              |
-| buyday.in        | https://stackoverflow.com/a/70426860                                                                                                                   |              |
-| usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12                                                         | Not Resolved |
-| Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28                                                                                                   | Not Resolved |
-| konvajs.com          | https://github.com/konvajs/konva/issues/1161                                                                                                           | Not Resolved |
-| breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/                                               | Resolved     |
-| platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/                 | Not Resolved |
-| thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102 | Not Resolved |
-| coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19       |              |
-| tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626 |
-| 4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2 | 
-| mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2 |
+Website | Reports
+----------------------|----------------------
+shantanugoel.com     | https://twitter.com/prohack/status/1422233887522975744 https://forum.internetfreedom.in/t/website-blocking-report-and-wynk-ads-shantanugoel-com/2318
+teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657   
+codewithrockstar.com | https://github.com/RockstarLang/codewithrockstar.com/issues/11 https://news.ycombinator.com/item?id=29481644
+neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254
+web.mightyme.in      | https://stackoverflow.com/questions/70420313/getting-the-website-has-been-blocked-as-per-order-of-ministry-of-electronics-an
+buyday.in        | https://stackoverflow.com/a/70426860
+usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
+Node-OS.com              | https://github.com/NodeOS/nodeos.github.io/issues/28  
+konvajs.com          | https://github.com/konvajs/konva/issues/1161
+breaks.eu.org        | https://www.reddit.com/r/developersIndia/comments/rg4fqb/airtel_blocked_my_projects_website_please_help/
+platesphp.com        | https://github.com/thephpleague/plates/issues/288 https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/
+thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
+coreui.io            | https://old.reddit.com/r/india/comments/p12qtq/why_did_govt_of_india_blocked_a_html_template/ https://github.com/coreui/coreui-website/issues/19
+tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626
+4fw.pw | https://github.com/captn3m0/hello-cloudflare/issues/2 
+mpp.su | https://github.com/captn3m0/hello-cloudflare/issues/2
+rsms.me | https://twitter.com/sahilk/status/1479489063874752512 https://twitter.com/sahilk/status/1441104954408587264
+about.hacktohell.org | https://twitter.com/hacktohell/status/1479484933785538562
+
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India.
 
