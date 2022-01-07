@@ -12,7 +12,7 @@ If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, th
 
 These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use CloudFlare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
 
-Here's a list of various such reports:
+<details><summary>Here's a list of various such reports: (Click to expand)</summary>
 
 Website | Reports
 ----------------------|----------------------
@@ -43,7 +43,7 @@ treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
 wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
 akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
 garudahacks.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
-
+</details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
 There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
