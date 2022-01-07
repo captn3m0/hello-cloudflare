@@ -32,6 +32,8 @@ Here's a list of various such reports:
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India.
 
+There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
+
 # Help, my website is blocked
 
 If you got a report about your website being blocked in India, with a message that reads:
