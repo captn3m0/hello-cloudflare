@@ -38,6 +38,7 @@ one9x.org | https://twitter.com/Ramank775/status/1465979965002846209
 kossiitkgp.org | https://twitter.com/OrkoHunter/status/1425089684535975937
 orkohunter.net | https://twitter.com/OrkoHunter/status/1425089684535975937
 treyhunner.com | https://twitter.com/abdulmuneer/status/1466289536833523714
+wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888 
 
 
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
