@@ -39,6 +39,19 @@ Several of these websites are critical to many developers, and none of these des
 
 There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
+# Call to CloudFlare
+
+Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
+
+Here's a few simple requests:
+
+1. Get Airtel to fix the issue at their end.
+2. Switch to a different upstream if that doesn't happen.
+3. Publish a transparency report acknowledging the issue and confirming how many websites were incorrectly blocked without a court-order.
+4. Notify Flexible SSL users that use GitHub Pages that their websites are getting blocked in India.
+
+Flexible SSL is a decade-old product that has no place in the modern web. Users should get a big red warning when enabling such a product in today's times with free SSL certificates.
+
 # Help, my website is blocked
 
 If you got a report about your website being blocked in India, with a message that reads:
@@ -52,18 +65,7 @@ Here's what you can do:
 
 If you aren't using CloudFlare, please open an issue.
 
-# Call to CloudFlare
-
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
-
-Here's a few simple requests:
-
-1. Get Airtel to fix the issue at their end.
-2. Switch to a different upstream if that doesn't happen.
-3. Publish a transparency report acknowledging the issue and confirming how many websites were incorrectly blocked without a court-order.
-4. Notify Flexible SSL users that use GitHub Pages that their websites are getting blocked in India.
-
-Flexible SSL is a decade-old product that has no place in the modern web. Users should get a big red warning when enabling such a product in today's times with free SSL certificates.
+If you'd like to notify a site owner, please send them this link: https://github.com/captn3m0/hello-cloudflare/blob/main/README.md#help-my-website-is-blocked
 
 # Help fight Censorship in India
 
