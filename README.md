@@ -1,16 +1,16 @@
-A public letter to CloudFlare to fix their snoopy vendor.
+A public letter to Cloudflare to fix their snoopy vendor.
 
 # What
 
-For the last few years, various websites hosted on GitHub Pages and fronted using CloudFlare have been blocked in India due to CloudFlare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
+For the last few years, various websites hosted on GitHub Pages and fronted using Cloudflare have been blocked in India due to Cloudflare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
 
-`User->CloudFlare->Airtel->GitHub Pages`
+`User->Cloudflare->Airtel->GitHub Pages`
 
-If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, the connection between CloudFlare and GitHub isn't encrypted, and Airtel blocks many such websites. Because CloudFlare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
+If a website is using "Flexible SSL" or "No SSL" as configured on Cloudflare, the connection between Cloudflare and GitHub isn't encrypted, and Airtel blocks many such websites. Because Cloudflare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
 
 # Impact
 
-These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use CloudFlare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
+These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use Cloudflare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
 
 <details><summary>Here's a list of various such reports: (Click to expand)</summary>
 
@@ -51,9 +51,9 @@ Several of these websites are critical to many developers, and none of these des
 
 There's [lots more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
-# Call to CloudFlare
+# Call to Cloudflare
 
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
+Hey @Cloudflare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor has a misconfiguration. This has been going on for years, with no action or update at your end. 
 
 Here's a few simple requests:
 
@@ -72,10 +72,10 @@ If you got a report about your website being blocked in India, with a message th
 
 Here's what you can do:
 
-1. Switch from CloudFlare to direct GitHub Pages, which supports TLS now.
-2. Enable HTTPS on GitHub pages, and switch the upstream on CloudFlare to get strict SSL instead of flexible.
+1. Switch from Cloudflare to direct GitHub Pages, which supports TLS now.
+2. Enable HTTPS on GitHub pages, and switch the upstream on Cloudflare to get strict SSL instead of flexible.
 
-If you aren't using CloudFlare, please open an issue.
+If you aren't using Cloudflare, please open an issue.
 
 If you'd like to notify a site owner, please send them this link: https://github.com/captn3m0/hello-cloudflare/blob/main/README.md#help-my-website-is-blocked
 
