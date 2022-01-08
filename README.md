@@ -48,6 +48,7 @@ noflojs.org | https://github.com/noflo/noflo/issues/863
 docs.pixelfed.org | https://github.com/pixelfed/docs/issues/80
 nodered.org | https://community.cloudflare.com/t/website-blocked-for-some-users-in-india/300620
 catalogue.nodered.org | https://community.cloudflare.com/t/website-blocked-for-some-users-in-india/300620
+codeception.com | https://github.com/Codeception/codeception.github.com/issues/591
 </details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
