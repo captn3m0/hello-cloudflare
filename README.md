@@ -1,16 +1,16 @@
-A public letter to CloudFlare to fix their snoopy vendor.
+A public letter to Cloudflare to fix their snoopy vendor.
 
 # What
 
-For the last few years, various websites hosted on GitHub Pages and fronted using CloudFlare have been blocked in India due to CloudFlare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
+For the last few years, various websites hosted on GitHub Pages and fronted using Cloudflare have been blocked in India due to Cloudflare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
 
 `User -> Any ISP -> Cloudflare -> Airtel (Cloudflare peering partner) -> GitHub Pages`
 
-If a website is using "Flexible SSL" or "No SSL" as configured on CloudFlare, the connection between CloudFlare and GitHub isn't encrypted, and Airtel blocks many such websites. Because CloudFlare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
+If a website is using "Flexible SSL" or "No SSL" as configured on Cloudflare, the connection between Cloudflare and GitHub isn't encrypted, and Airtel blocks many such websites. Because Cloudflare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
 
 # Impact
 
-These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use CloudFlare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
+These are just a few of the many websites blocked. This disproportionately impacts the developer community, and especially older websites that had a reason to use Cloudflare on top of GitHub Pages - TLS support. Now that GitHub Pages natively offers SSL, most of these websites can directly be hosted on GitHub Pages.
 
 <details><summary>Here's a list of various such reports: (Click to expand)</summary>
 
@@ -45,6 +45,7 @@ wowjs.uk | https://twitter.com/rahulrrnair/status/1465629811368357888
 akshatmittal.com | https://twitter.com/iakshatmittal/status/1479517378455040002
 garudahacks.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
 noflojs.org | https://github.com/noflo/noflo/issues/863
+docs.pixelfed.org | https://github.com/pixelfed/docs/issues/80
 </details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
@@ -52,7 +53,7 @@ There's [more reports on Twitter](https://twitter.com/search?q=blocked%20as%20pe
 
 # Call to Cloudflare
 
-Hey @Cloudflare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end.
+Hey @Cloudflare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end. 
 
 Here's a few simple requests:
 
@@ -71,10 +72,10 @@ If you got a report about your website being blocked in India, with a message th
 
 Here's what you can do:
 
-1. Switch from CloudFlare to direct GitHub Pages, which supports TLS now.
-2. Enable HTTPS on GitHub pages, and switch the upstream on CloudFlare to get strict SSL instead of flexible.
+1. Switch from Cloudflare to direct GitHub Pages, which supports TLS now.
+2. Enable HTTPS on GitHub pages, and switch the upstream on Cloudflare to get strict SSL instead of flexible.
 
-If you aren't using CloudFlare, please open an issue.
+If you aren't using Cloudflare, please open an issue.
 
 If you'd like to notify a site owner, please send them this link: https://github.com/captn3m0/hello-cloudflare/blob/main/README.md#help-my-website-is-blocked
 
