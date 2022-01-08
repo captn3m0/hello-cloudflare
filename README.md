@@ -50,9 +50,9 @@ Several of these websites are critical to many developers, and none of these des
 
 There's [more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
 
-# Call to CloudFlare
+# Call to Cloudflare
 
-Hey @CloudFlare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end.
+Hey @Cloudflare, please take care of this. Indian developers have been blocked out various critical websites because your upstream vendor (peering partner) has a misconfiguration. This has been going on for years, with no action or update at your end.
 
 Here's a few simple requests:
 
