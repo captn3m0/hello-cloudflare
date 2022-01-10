@@ -2,11 +2,11 @@ A public letter to Cloudflare to fix their snoopy vendor.
 
 # What
 
-For the last few years, various websites hosted on GitHub Pages and fronted using Cloudflare have been blocked in India due to Cloudflare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
+For the last few years, various websites hosted on GitHub Pages/Google App Engine and fronted using Cloudflare have been blocked in India due to Cloudflare relying on a upstream network provider with a misconfigured network (Airtel). The network flow looks like this:
 
-`User -> Any ISP -> Cloudflare -> Airtel (Cloudflare peering partner) -> GitHub Pages`
+`User -> Any ISP -> Cloudflare -> Airtel (Cloudflare peering partner) -> (GitHub Pages|Google App Engine)`
 
-If a website is using "Flexible SSL" or "No SSL" as configured on Cloudflare, the connection between Cloudflare and GitHub isn't encrypted, and Airtel blocks many such websites. Because Cloudflare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
+If a website is using "Flexible SSL" or "No SSL" as configured on Cloudflare, the connection between Cloudflare and (GitHub|Google) isn't encrypted, and Airtel blocks many such websites. Because Cloudflare terminates the TLS connection at their end, the browser shows a padlock, thus giving more authenticity to this incorrect block.
 
 # Impact
 
@@ -55,6 +55,7 @@ awesome-python.com | https://github.com/vinta/awesome-python/issues/1909
 bryanbraun.github.io | https://github.com/bryanbraun/bryanbraun.github.io/issues/42
 pdm.fming.dev | https://github.com/pdm-project/pdm/issues/786 https://github.com/pdm-project/pdm/issues/844
 seaql.github.io | https://github.com/SeaQL/seaql.github.io/issues/12
+pramod.io | https://github.com/captn3m0/hello-cloudflare/issues/10 Blocked even on Google App Engine
   
 </details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
@@ -70,7 +71,7 @@ Here's a few simple requests:
 1. Get Airtel to fix the issue at their end.
 2. Switch to a different upstream (peer) if that doesn't happen.
 3. Publish a transparency report acknowledging the issue and confirming how many websites were incorrectly blocked without a court-order.
-4. Notify Flexible SSL users that use GitHub Pages that their websites are getting blocked in India.
+4. Notify Flexible SSL users that their websites are getting blocked in India.
 
 Flexible SSL is a decade-old product that has no place in the modern web. Users should get a big red warning when enabling such a product in today's times with free SSL certificates.
 
