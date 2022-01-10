@@ -59,7 +59,7 @@ seaql.github.io | https://github.com/SeaQL/seaql.github.io/issues/12
 </details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
-There's [more reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology).
+There's [hundreds reports on Twitter](https://twitter.com/search?q=blocked%20as%20per%20order%20of%20Ministry%20of%20Electronics%20and%20Information%20Technology) and [GitHub](https://github.com/search?q=blocked+India&type=Issues)
 
 # Call to Cloudflare
 
