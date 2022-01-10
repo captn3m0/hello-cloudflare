@@ -19,6 +19,7 @@ Website | Reports
 teachyourselfcs.com  | https://twitter.com/oznova_/status/1467957261221830657
 neovim.io            | https://twitter.com/sanchayan_maity/status/1479131300040564737 https://github.com/neovim/neovim.github.io/issues/254
 usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
+reactcommunity.org | https://github.com/reactjs/reactjs.github.io/issues/1 https://twitter.com/tecoholic/status/1480528265068515332  https://twitter.com/chiku__p/status/1465988817773481985
 thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
 tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626
 draftjs.org | https://github.com/facebook/draft-js/issues/3086 https://twitter.com/vaishnavs0/status/1480403158631260161
