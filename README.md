@@ -51,6 +51,11 @@ nodered.org | https://community.cloudflare.com/t/website-blocked-for-some-users-
 catalogue.nodered.org | https://community.cloudflare.com/t/website-blocked-for-some-users-in-india/300620
 codeception.com | https://github.com/Codeception/codeception.github.com/issues/591
 srijanshetty.in | https://twitter.com/srijanshetty/status/1468523289467179008
+awesome-python.com | https://github.com/vinta/awesome-python/issues/1909
+bryanbraun.github.io | https://github.com/bryanbraun/bryanbraun.github.io/issues/42
+pdm.fming.dev | https://github.com/pdm-project/pdm/issues/786 https://github.com/pdm-project/pdm/issues/844
+seaql.github.io | https://github.com/SeaQL/seaql.github.io/issues/12
+  
 </details>
 Several of these websites are critical to many developers, and none of these deserve to get blocked in India. Some of the above website are no longer blocked, because the website owner switched away from Flexible SSL to Strict SSL. However, this only happens when someone notices the block, debugs the issue correctly, and the website owner understands and fixes the issue. This is not a viable solution in this case.
 
