@@ -75,10 +75,11 @@ If you got a report about your website being blocked in India, with a message th
 
 > The website has been blocked as per order of Ministry of Electronics and Information Technology under IT Act, 2000.
 
-Here's what you can do:
+Here's a number of ways to fix the issue:
 
 1. Switch from Cloudflare to direct GitHub Pages, which supports TLS now.
 2. Enable HTTPS on GitHub pages, and switch the upstream on Cloudflare to get strict SSL instead of flexible.
+3. Switch to a different hosting provider altogether (CloudFlare Pages, Netlify, ...)
 
 If you aren't using Cloudflare, please open an issue.
 
