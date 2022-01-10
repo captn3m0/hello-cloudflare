@@ -21,6 +21,7 @@ neovim.io            | https://twitter.com/sanchayan_maity/status/14791313000405
 usebottles.com       | https://news.ycombinator.com/item?id=29358915 https://github.com/bottlesdevs/website/issues/12
 thephpleague.com     | https://www.reddit.com/r/india/comments/r3bc78/hey_anyone_facing_issues_with_airtel/ https://github.com/thephpleague/thephpleague.github.io/issues/102
 tldr.sh | https://www.reddit.com/r/developersIndia/comments/p3kxi4/why_are_some_nonporn_dev_related_websites_blocked/ https://github.com/tldr-pages/tldr/issues/7626
+draftjs.org | https://github.com/facebook/draft-js/issues/3086 https://twitter.com/vaishnavs0/status/1480403158631260161
 pennapps.com | https://twitter.com/skxrxn/status/1479520588955742209?s=20
 termux.com | https://twitter.com/geekodour/status/1478963440412626946 https://github.com/termux/termux.github.io/issues/56
 rsms.me | https://twitter.com/sahilk/status/1479489063874752512 https://twitter.com/sahilk/status/1441104954408587264
